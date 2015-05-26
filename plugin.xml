@@ -12,16 +12,16 @@
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>  
-    <platform name="android">
-        <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="QRCodeScanner">
-                <param name="android-package" value="br.wladscript.QRCodeScanner"/>
-            </feature>
-        </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml"/>
-        <source-file src="src/android/QRCodeScanner.java"
-                     target-dir="src/br/wladscript/QRCodeScanner"/>
-    </platform>
+    <!--<platform name="android">-->
+        <!--<config-file parent="/*" target="res/xml/config.xml">-->
+            <!--<feature name="QRCodeScanner">-->
+                <!--<param name="android-package" value="br.wladscript.QRCodeScanner"/>-->
+            <!--</feature>-->
+        <!--</config-file>-->
+        <!--<config-file parent="/*" target="AndroidManifest.xml"/>-->
+        <!--<source-file src="src/android/QRCodeScanner.java"-->
+                     <!--target-dir="src/br/wladscript/QRCodeScanner"/>-->
+    <!--</platform>-->
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="QRCodeScanner">

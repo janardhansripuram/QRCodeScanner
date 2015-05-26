@@ -4,9 +4,9 @@ A simple qrcode scanner plugin for **Cordova** / **PhoneGap** / **Ionic** apps. 
 
 ## Installation
 
-    cordova plugin add https://github.com/wladiston/QRCodeScanner.git
+    cordova plugin add https://github.com/wladiston/QRCodeScanner
 	// or
-    ionic plugin add https://github.com/wladiston/QRCodeScanner.git
+    ionic plugin add https://github.com/wladiston/QRCodeScanner
 
 ### Supported Platforms
 
