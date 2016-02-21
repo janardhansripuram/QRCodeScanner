@@ -214,6 +214,8 @@
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection
 {
+  [self stopScanning];
+
   for (AVMetadataObject *current in metadataObjects) {
     if ([current isKindOfClass:[AVMetadataMachineReadableCodeObject class]]
         && [_metadataObjectTypes containsObject:current.type]) {
